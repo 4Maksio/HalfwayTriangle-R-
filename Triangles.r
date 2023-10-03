@@ -5,7 +5,7 @@ cat("Hello!\nFrom a random point in X, Y real range <0;100> I will generate furt
 # Get number of iterations
 
 cat("Write number of iterations:\n")
-Times <- scan(n = 1, what = numeric())
+times <- scan(n = 1, what = numeric())
 
 # Starting points
 
@@ -16,21 +16,21 @@ plot(Px,Py,xlim=c(0,100),ylim=c(0,100),pch=20,main="Halfs of lengths", xlab="X",
 
 # Generating & calculating data
 
-lista_odniesien <- sample(1:3,Times,replace = TRUE)
+ref_list <- sample(1:3,times,replace = TRUE)
 
 x <- runif(1, 0, 100)
 y <- runif(1, 0, 100)
-DaneX <- c(x,numeric(Times-1))
-DaneY <- c(y,numeric(Times-1))
+dataX <- c(x,numeric(times-1))
+dataY <- c(y,numeric(times-1))
 
 i <- 1
-for (l in lista_odniesien) {
-   DaneX[i+1]=(Px[l]+DaneX[i])/2
-   DaneY[i+1]=(Py[l]+DaneY[i])/2
+for (l in ref_list) {
+   dataX[i+1]=(Px[l]+dataX[i])/2
+   dataY[i+1]=(Py[l]+dataY[i])/2
    i <- i+1
 }
 
 # Writing existing data
 
-points(DaneX,DaneY,pch=20)
+points(dataX,dataY,pch=20)
 points(x,y,pch=20,col="red")

@@ -1,7 +1,7 @@
 # HalfwayTriangle-R-
 
-***[EN](https://github.com/4Maksio/HalfwayTriangle-R-/edit/main/README.md#en)*** | 
-***[PL](https://github.com/4Maksio/HalfwayTriangle-R-/edit/main/README.md#pl)***
+***[EN](https://github.com/4Maksio/HalfwayTriangle-R-/tree/main#en)*** | 
+***[PL](https://github.com/4Maksio/HalfwayTriangle-R-/tree/main#pl)***
 
 ---
 

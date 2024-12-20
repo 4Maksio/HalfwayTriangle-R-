@@ -1,5 +1,7 @@
 # HalfwayTriangle-R-
 
+## <span style="color:red"> ⚠️Refaktoryzacja⚠️ | ⚠️Refactoring⚠️ </span>  
+
 ***[EN](https://github.com/4Maksio/HalfwayTriangle-R-/tree/main#en)*** | 
 ***[PL](https://github.com/4Maksio/HalfwayTriangle-R-/tree/main#pl)***
 
@@ -15,7 +17,7 @@
 
 ## [EN]
 
-The *[Triangles.r](https://github.com/4Maksio/HalfwayTriangle-R-/blob/main/Triangles.r)* script generates a simple fractal graphic based on triangles.
+The *[triangles.r](https://github.com/4Maksio/HalfwayTriangle-R-/blob/main/Triangles.r)* script generates a simple fractal graphic based on triangles.
 
 The generating algorithm is as follows:
 
@@ -26,13 +28,13 @@ The generating algorithm is as follows:
 
 The red dot illustrates the first point.
 
-If you don't have the **R** interpreter installed and/or you want to skip the first dots that ruins the image, copy the code from the *[Triangles_fixed.r](https://github.com/4Maksio/HalfwayTriangle-R-/blob/main/Triangles_fixed.r)* file into any online **R** interpreter.
+If you don't have the **R** interpreter installed and/or you want to skip the first dots that ruins the image, copy the code from the *[triangles_fixed.r](https://github.com/4Maksio/HalfwayTriangle-R-/blob/main/Triangles_fixed.r)* file into any online **R** interpreter.
 
 ---
 
 ## [PL]
 
-Skrypt *[Triangles.r](https://github.com/4Maksio/HalfwayTriangle-R-/blob/main/Triangles.r)* generuje prostą grafikę fraktalną na bazie trójkątów.
+Skrypt *[triangles.r](https://github.com/4Maksio/HalfwayTriangle-R-/blob/main/Triangles.r)* generuje prostą grafikę fraktalną na bazie trójkątów.
 
 Algorytm generujący wygląda następująco:
 
@@ -43,4 +45,4 @@ Algorytm generujący wygląda następująco:
 
 Czerwona kropka obrazuje pierwszy punkt.
 
-Jeśli nie masz zainstalowanego interpretera **R** i/lub chcesz pominąć pierwsze kropki, które burzą obraz, skopiuj kod z pliku *[Triangles_fixed.r](https://github.com/4Maksio/HalfwayTriangle-R-/blob/main/Triangles_fixed.r)* do dowolnego internetowego interpretera **R**.
+Jeśli nie masz zainstalowanego interpretera **R** i/lub chcesz pominąć pierwsze kropki, które burzą obraz, skopiuj kod z pliku *[triangles_fixed.r](https://github.com/4Maksio/HalfwayTriangle-R-/blob/main/Triangles_fixed.r)* do dowolnego internetowego interpretera **R**.

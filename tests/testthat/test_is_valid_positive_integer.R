@@ -6,5 +6,5 @@ test_that("is_valid_positive_integer returns true", {
 })
 
 test_that("is_valid_positive_integer returns false", {
-  expect_true(is_valid_positive_integer(-1))
+  expect_false(is_valid_positive_integer(-1))
 })
